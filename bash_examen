@@ -1,0 +1,5 @@
+nextflow run main.nf \
+ --accession M21012 \
+ --genome_dir ./hepatitis_genomes \
+ output_dir ./results \
+ -with-singularity
